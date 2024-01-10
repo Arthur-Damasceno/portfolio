@@ -2,12 +2,8 @@ use yew::{prelude::*, Renderer};
 
 #[function_component]
 fn App() -> Html {
-    let hello_world = "Hello World!";
-
     html! {
-        <div>
-            <p>{ hello_world }</p>
-        </div>
+        <p class="text">{ "Hi 👋! I'm Arthur Damasceno." }</p>
     }
 }
 
