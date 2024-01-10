@@ -1,9 +1,12 @@
+mod components;
+
 use yew::{prelude::*, Renderer};
+use components::*;
 
 #[function_component]
 fn App() -> Html {
     html! {
-        <p class="text">{ "Hi 👋! I'm Arthur Damasceno." }</p>
+        <Author />
     }
 }
 
