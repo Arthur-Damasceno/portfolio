@@ -1,10 +1,13 @@
 use yew::prelude::*;
 
-use crate::components::Author;
+use crate::components::{Author, About};
 
 #[function_component]
 pub fn Home() -> Html {
     html! {
-        <Author />
+        <>
+            <Author />
+            <About />
+        </>
     }
 }
